@@ -1,5 +1,7 @@
 # vitzapp.github.io
 
+https://vitzapp.github.io
+
 Die Website zur Promotion unserer App.
 
 
