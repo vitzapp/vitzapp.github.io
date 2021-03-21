@@ -58,51 +58,6 @@ img {
     margin: var(--inner-margin);
 }
 
-.download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent-color);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 7px;
-    cursor: pointer;
-    width: 220px;
-    margin: 20px auto;
-    color: #fff;
-    transition: 0.3s;
-}
-
-.download:hover {
-    background-color: var(--accent-color-dark);
-}
-
-.functions {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent-color-dark);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.download img {
-    width: 40px;
-    margin-right: 10px;
-}
-
-.functions img {
-    width: 50px;
-    margin-right: 10px;
-}
-
-.download p, .functions p {
-    font-weight: 400;
-    font-size: 1.2rem;
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -113,10 +68,6 @@ a {
     top: 0;
     left: 0;
     align-items: center;
-}
-
-#top-bar img {
-    width: 60px;
 }
 
 .left, .right {
