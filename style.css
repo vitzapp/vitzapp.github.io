@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway');
+:root {
+    --bg-color: #f6f8f9;
+    --orange: #0C92E8;
+    --card-color: #e9f0f4;
+    --accent-color: #007bff;
+    --accent-color-dark: #0067d4;
+    --light-red: #f8eced;
+    --inner-margin: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;/*var(--textColor);
+    background: linear-gradient(45deg, var(--bgColor1), var(--bgColor2), var(--bgColor2), var(--bgColor2), var(--bgColor1));*/
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+img {
+    width: 350px;
+}
+
+.page {
+    height: 85vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page:nth-child(even) {
+    background-color: #fefefe;/*var(--card-color);*/
+}
+
+#title-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 99vh;
+}
+
+#title-page h1 {
+    font-size: 3rem;
+    margin: var(--inner-margin);
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 220px;
+    margin: 20px auto;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.download:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.functions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color-dark);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.download img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.functions img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.download p, .functions p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+#top-bar img {
+    width: 60px;
+}
+
+.left, .right {
+    margin: 0 40px 0 40px;
+    text-align: center;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 600px;
+}
+
+.team {
+    height: 70vh;
+}
+
+.team h1 {
+    margin-bottom: 30px;
+}
+
+.team img {
+    width: 150px;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.team .team-content {
+    text-align: center;
+}
+
+.team .team-content .member {
+    width: 20%;
+    margin: 20px;
+}
+
+.team .team-content .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: #D4DAE1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p {
+    margin: 20px;
+}
+
+#login {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    margin: 15px;
+}
+
+.extra #news {
+    width: 50px;
+    margin-right: 30px;
+}
+
+.extra-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tickit-link {
+    width: 20px;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 70px;
+    margin: 20px;
+}
+
+#join-team {
+    padding: 20px;
+    margin: 20px auto;
+    width: 250px;
+    border-radius: 20px;
+    background-color: var(--orange);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#join-team a {
+    color: #fff;
+}
+
+#join-team:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.line {
+    margin: 10px;
+    height: 30px;
+    width: 1px;
+    background-color: #333;
+}
+
+#link-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-bar img {
+    width: 25px;
+    margin: 15px;
+}
+
+#footer .top {
+    display: flex;
+}
+
+.small-page {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.small-page .info-item img {
+    width: 80px;
+    margin: 20px;
+}
+
+.small-page .info-item {
+    width: 27%;
+    border: 1px #ccc solid;
+    height: 35vh;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.small-page .info-item:hover {
+    border: 1px #aaa solid;
+}
+
+.small-page .info-item h1 {
+    margin: 10px;
+}
+
+.google-play-badge {
+    width: 200px;
+    margin: 20px;
+}
+
