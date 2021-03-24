@@ -1,8 +1,9 @@
 @media (max-width: 800px) {
     .page {
         height: unset;
-        background-color: #fff;
-        display: block;
+        display: unset;
+        padding-top: 10px;
+        padding-top: 10px;
     }
     
     #login {
@@ -14,11 +15,14 @@
     }
 
     .logo {
-        margin: 10px auto;
+        margin: 20px;
         text-align: center;
         display: flex;
         justify-content: center;
-        width: 40px !important;
+        width: 50px !important;
+    }
+    .logo:nth-child(1) {
+        margin: 20px auto;
     }
 
     #title-page {
@@ -26,7 +30,7 @@
         justify-content: unset;
         align-items: center;
         text-align: center;
-        height: 99vh;
+        height: unset;
     }
 
     .google-play-badge {
@@ -35,20 +39,19 @@
     }
 
     .page img {
-        width: 250px;
+        width: 70vw;
     }
 
     .small-page {
-        height: 100vh;
+        min-height: 100vh;
         display: block;
     }
     .info-item {
-        width: 90% !important;
-        margin: 0 !important;
+        width: 80vw !important;
+        margin: 0 auto !important;
         margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
-
     .description {
         width: 90%;
     }
@@ -63,7 +66,17 @@
         display: block;
         justify-content: unset;
     }
+    .team {
+        margin: 0 auto;
+    }
+    .team .team-content .member {
+        width: 100%;
+    }
     .team .team-content .imgs {
         display: block;
+        margin: 0 auto;
+    }
+    .team .team-content h2, .team .team-content p {
+        text-align: center;
     }
 }

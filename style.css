@@ -30,19 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    width: 350px;
+    width: 20vw;
 }
 
 .page {
     height: 85vh;
-    padding: 20px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .page:nth-child(even) {
-    background-color: #fefefe;/*var(--card-color);*/
+    background-color: #F3F0FF;/*var(--card-color);*/
 }
 
 #title-page {
@@ -71,7 +71,7 @@ a {
 }
 
 .left, .right {
-    margin: 0 40px 0 40px;
+    margin: 40px;
     text-align: center;
 }
 
