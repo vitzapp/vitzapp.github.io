@@ -42,7 +42,7 @@ img {
 }
 
 .page:nth-child(even) {
-    background-color: #F3F0FF;/*var(--card-color);*/
+    background-color: var(--card-color);
 }
 
 #title-page {

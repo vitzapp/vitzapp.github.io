@@ -40,6 +40,7 @@
 
     .page img {
         width: 70vw;
+        margin: 0px;
     }
 
     .small-page {
@@ -71,6 +72,7 @@
     }
     .team .team-content .member {
         width: 100%;
+        margin: 0;
     }
     .team .team-content .imgs {
         display: block;
