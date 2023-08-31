@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway');
 :root {
-    --bg-color: #f6f8f9;
+    --bg-color: black;
     --orange: #0C92E8;
-    --card-color: #e9f0f4;
+    --card-color: black;
     --accent-color: #007bff;
     --accent-color-dark: #0067d4;
     --light-red: #f8eced;
@@ -15,18 +15,21 @@
 }
 
 body {
-    color: #000;/*var(--textColor);
+    background-color: black;/*var(--textColor);
     background: linear-gradient(45deg, var(--bgColor1), var(--bgColor2), var(--bgColor2), var(--bgColor2), var(--bgColor1));*/
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
     font-weight: 500;
+    color: white;
 }
 
 img {
@@ -79,6 +82,7 @@ a {
     margin-top: 10px;
     font-size: 18px;
     width: 600px;
+    color: white;
 }
 
 .team {
@@ -109,6 +113,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #footer {
@@ -228,3 +233,13 @@ a {
     margin: 20px;
 }
 
+.first_title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+
+}
+
+
+p {
+    color: white;
+}
